@@ -6,6 +6,8 @@ A [Stylelint](https://stylelint.io/) config that attempts to map [sonar](https:/
 
 This [mapping](https://github.com/SymphonyOSF/sonar-css-plugin/blob/master/doc/stylelint-sonarqube-rule-mapping.md) has been used to come to the correct styleint rules to use.
 
+### The following Sonar CSS rules are covered
+
 - "!important" annotation should not be used
 - CSS should be written in lower case
 - Duplicated properties should be removed
@@ -33,6 +35,36 @@ This [mapping](https://github.com/SymphonyOSF/sonar-css-plugin/blob/master/doc/s
 - Unknown pseudo-elements and pseudo-classes should be removed
 - Unknown type selectors should be removed
 - URL should be quoted
+
+## If you are using SCSS you might want to add the following rules manually:
+
+```javascript
+// Unknown @-rules should be removed
+"at-rule-no-unknown": [
+  true,
+  {
+    ignoreAtRules: [
+      "include",
+      "mixin",
+      "extend",
+      "if",
+      "else",
+      "for",
+      "return",
+      "each",
+      "warn",
+      "error",
+      "function"
+    ]
+  }
+],
+
+// Empty mixins should be removed
+"block-no-empty": true,
+
+// Rulesets should not be nested too deeply
+"max-nesting-depth": 3
+```
 
 ## How to use
 
