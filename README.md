@@ -40,6 +40,11 @@ Install the npm module:
 
 ```
 yarn add stylelint-config-sonarqube
+```
+
+or
+
+```
 npm install stylelint-config-sonarqube
 ```
 
@@ -47,7 +52,7 @@ Extend the Stylelint ruleset by adding this to your `.stylelintrc.js`:
 
 ```javascript
 module.exports = {
-  extends: ["stylelint-config-valtech"]
+  extends: ["stylelint-config-sonarqube"]
 };
 ```
 
