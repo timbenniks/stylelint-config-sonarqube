@@ -82,7 +82,7 @@ module.exports = {
     // Units for zero length values should be removed
     "length-zero-no-unit": true,
 
-    "no-descending-specificity": false,
+    "no-descending-specificity": null,
 
     // Unknown @-rules should be removed
     "at-rule-no-unknown": true,
