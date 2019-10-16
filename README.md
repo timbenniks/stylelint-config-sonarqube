@@ -40,24 +40,8 @@ This [mapping](https://github.com/SymphonyOSF/sonar-css-plugin/blob/master/doc/s
 
 ```javascript
 // Unknown @-rules should be removed
-"at-rule-no-unknown": [
-  true,
-  {
-    ignoreAtRules: [
-      "include",
-      "mixin",
-      "extend",
-      "if",
-      "else",
-      "for",
-      "return",
-      "each",
-      "warn",
-      "error",
-      "function"
-    ]
-  }
-],
+"at-rule-no-unknown": null,
+"scss/at-rule-no-unknown": true,
 
 // Empty mixins should be removed
 "block-no-empty": true,
