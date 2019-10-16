@@ -43,9 +43,6 @@ This [mapping](https://github.com/SymphonyOSF/sonar-css-plugin/blob/master/doc/s
 "at-rule-no-unknown": null,
 "scss/at-rule-no-unknown": true,
 
-// Empty mixins should be removed
-"block-no-empty": true,
-
 // Rulesets should not be nested too deeply
 "max-nesting-depth": 3
 ```
