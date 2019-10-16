@@ -55,13 +55,13 @@ This [mapping](https://github.com/SymphonyOSF/sonar-css-plugin/blob/master/doc/s
 Install the npm module:
 
 ```
-yarn add stylelint-config-sonarqube
+yarn add stylelint-config-sonarqube --dev
 ```
 
 or
 
 ```
-npm install stylelint-config-sonarqube
+npm install stylelint-config-sonarqube --save-dev
 ```
 
 Extend the Stylelint ruleset by adding this to your `.stylelintrc.js`:
