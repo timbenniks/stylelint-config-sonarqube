@@ -71,7 +71,7 @@ module.exports = {
     "block-opening-brace-newline-after": "always",
     "declaration-colon-space-after": "always",
     "declaration-colon-space-before": "never",
-    "declaration-bang-space-after": "always",
+    "declaration-bang-space-after": "never",
 
     // There should be one single declaration per line
     "declaration-block-single-line-max-declarations": 1,

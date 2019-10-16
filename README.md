@@ -43,9 +43,6 @@ This [mapping](https://github.com/SymphonyOSF/sonar-css-plugin/blob/master/doc/s
 "at-rule-no-unknown": null,
 "scss/at-rule-no-unknown": true,
 
-// Empty mixins should be removed
-"block-no-empty": true,
-
 // Rulesets should not be nested too deeply
 "max-nesting-depth": 3
 ```
@@ -55,13 +52,13 @@ This [mapping](https://github.com/SymphonyOSF/sonar-css-plugin/blob/master/doc/s
 Install the npm module:
 
 ```
-yarn add stylelint-config-sonarqube
+yarn add stylelint-config-sonarqube --dev
 ```
 
 or
 
 ```
-npm install stylelint-config-sonarqube
+npm install stylelint-config-sonarqube --save-dev
 ```
 
 Extend the Stylelint ruleset by adding this to your `.stylelintrc.js`:
